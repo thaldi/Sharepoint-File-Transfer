@@ -161,7 +161,7 @@ namespace files
         public List<User> Users { get; set; } //dosyaya ait kişiler ve bu kişilere ait dosya izinleri
     }
 
-    //pathlere yetki verebilmek için hepsi için uğraşmamak için sadece klasörlere gidip yetki verebilsin 
+    //pathlere yetki verebilmek için hepsiyle uğraşmak yerine sadece klasörlere gidip yetki verebilsin 
     //diye path ile benzersiz olanları alabilmek için eklenen partial class
     public partial class File
     {
